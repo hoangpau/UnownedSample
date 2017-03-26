@@ -10,7 +10,7 @@ import UIKit
 
 class VC2: UIViewController {
     
-    var dataSource = DataSource()
+    unowned var dataSource = DataSource()
 
     override func viewDidLoad() {
         super.viewDidLoad()
